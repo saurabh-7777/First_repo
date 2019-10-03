@@ -1,0 +1,30 @@
+final class A
+{
+    final public void display()
+    {
+        System.out.println("In  A display");
+        
+    }
+    
+}
+
+class B extends A
+{
+    public void display()
+    {
+        System.out.println("In B display");
+    }
+}
+
+public class firstgit {
+    public static void main(String[] args) {
+        final int i =8;
+        i++;
+     
+    B ob = new B();
+    ob.display();
+    }
+    
+    
+}
+
